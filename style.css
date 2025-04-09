@@ -1,0 +1,51 @@
+/* General page styling */
+#styled-image + .styled-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Styling the heading */
+.main-heading {
+    color: #007bff;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Styling paragraphs */
+.description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Styling the image */
+#styled-image {
+    width: 300px;
+    height: auto;
+    border: 3px solid #007bff;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styling links */
+.styled-link {
+    text-align: center;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+.styled-link:hover {
+    background-color: #0056b3;
+}
